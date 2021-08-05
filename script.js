@@ -5,4 +5,4 @@ let array = [
 ]
 
 array.sort((prev, next) => prev[0] - next[0]);
-console.log(sorted);
+console.log(array);
