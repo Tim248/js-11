@@ -4,5 +4,5 @@ let array = [
     ['a', 'c', 'd']
 ]
 
-array.sort((prev, next) => prev[0] - next[0]);
+array.sort((prev, next) => prev.length - next.length);
 console.log(array);
